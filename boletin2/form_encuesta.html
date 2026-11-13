@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="post">
+        <fieldset>
+            <legend>Datos academicos</legend>
+            <label for="nombre">Nombre y Apellidos: </label>
+            <input name="nombre" id="nombre" type="text" value="">
+            <label for="ciclo">Ciclo formativo: </label>
+            <select name="ciclo" id="ciclo">
+                <option value="DAM" selected>DAM</option>
+                <option value="DAW" selected>DAM</option>
+                <option value="ASIR" selected>DAM</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias técnicas</legend>
+            <label for="lenguaje1">Java </label>
+            <input name="lenguaje1" id="lenguaje1" type="radio" value="Java">
+            <label for="lenguaje2">Python </label>
+            <input name="lenguaje2" id="lenguaje" type="radio" value="Python">
+            <label for="lenguaje3">C# </label>
+            <input name="lenguaje3" id="lenguaje" type="radio" value="C#">
+            <label for="lenguaje4">JavaScript </label>
+            <input name="lenguaje4" id="lenguaje" type="radio" value="JavaScript">
+
+            <label for="Linux">Linux: </label>
+            <input name="Linux" id="Linux" type="checkbox" value="Linux">
+            <label for="Windows">Windows: </label>
+            <input name="Windows" id="Windows" type="checkbox" value="Windows">
+            <label for="MacOS">Linux: </label>
+            <input name="MacOS" id="MacOS" type="checkbox" value="MacOS">
+
+            <textarea rows="4" cols="40">Comentarios / Experiencia previa: </textarea>
+        </fieldset>
+
+        <button type="reset">Reset: </button>
+        <button type="submit">Enviar: </button>
+    </form>
+</body>
+
+</html>
